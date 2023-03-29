@@ -10,12 +10,14 @@ public class TransferRequest {
     private String cardFromNumber;
     private String cardFromCVV;
     private String cardFromValidTill;
+
     public String getCardToNumber() {
         return cardToNumber;
     }
 
     public TransferRequest() {
     }
+
     public TransferRequest(String cardFromNumber, String cardFromCVV, String cardFromValidTill, Amount amount, String cardToNumber) {
         this.cardFromNumber = cardFromNumber;
         this.cardFromCVV = cardFromCVV;
@@ -23,9 +25,11 @@ public class TransferRequest {
         this.amount = amount;
         this.cardToNumber = cardToNumber;
     }
+
     public Amount getAmount() {
         return amount;
     }
+
     public String getCardFromNumber() {
         return cardFromNumber;
     }

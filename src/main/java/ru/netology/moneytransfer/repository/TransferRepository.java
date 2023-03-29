@@ -1,24 +1,14 @@
 package ru.netology.moneytransfer.repository;
 
-import org.springframework.stereotype.Repository;
+import ru.netology.moneytransfer.model.Amount;
+import ru.netology.moneytransfer.model.Card;
+import ru.netology.moneytransfer.model.OperationId;
 import ru.netology.moneytransfer.model.TransferInfo;
 
 import java.util.Optional;
-import java.util.concurrent.ConcurrentHashMap;
 
-@Repository
-public class TransferRepository {
-    private ConcurrentHashMap<String, TransferInfo> TransferRepository;
+public interface TransferRepository {
+    public Optional<TransferInfo> getTransferByOperationId(String operationId);
 
-    public TransferRepository() {
-        this.TransferRepository = new ConcurrentHashMap<>();
-    }
-
-    public Optional<TransferInfo> getTransferByOperationId(String operationId) {
-        return Optional.ofNullable(TransferRepository.getOrDefault(operationId, null));
-    }
-
-    public void addTransfer(String operationId, TransferInfo transfer) {
-        TransferRepository.put(operationId, transfer);
-    }
+    public OperationId addTransferRepository(Card cardFrom, Card cardTo, Amount amount);
 }

@@ -1,0 +1,60 @@
+14:11:33.069 [Test worker] INFO  r.n.m.MoneyTransferApplicationTests - Starting MoneyTransferApplicationTests using Java 11.0.17 on HOME-PC with PID 23320 (started by vladimir in C:\Users\vladimir\IdeaProjects\mockito\dockerFile\moneyTransfer)
+14:11:33.071 [Test worker] INFO  r.n.m.MoneyTransferApplicationTests - No active profile set, falling back to default profiles: default
+14:11:34.601 [Test worker] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 0 (http)
+14:11:34.619 [Test worker] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+14:11:34.620 [Test worker] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.55]
+14:11:34.733 [Test worker] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+14:11:34.734 [Test worker] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1640 ms
+14:11:35.874 [Test worker] INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 1 endpoint(s) beneath base path '/actuator'
+14:11:35.971 [Test worker] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 53151 (http) with context path ''
+14:11:35.990 [Test worker] INFO  r.n.m.MoneyTransferApplicationTests - Started MoneyTransferApplicationTests in 3.306 seconds (JVM running for 4.809)
+14:17:50.764 [Test worker] INFO  r.n.m.MoneyTransferApplicationTests - Starting MoneyTransferApplicationTests using Java 11.0.17 on HOME-PC with PID 15076 (started by vladimir in C:\Users\vladimir\IdeaProjects\mockito\dockerFile\moneyTransfer)
+14:17:50.767 [Test worker] INFO  r.n.m.MoneyTransferApplicationTests - No active profile set, falling back to default profiles: default
+14:17:52.291 [Test worker] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 0 (http)
+14:17:52.307 [Test worker] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+14:17:52.308 [Test worker] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.55]
+14:17:52.419 [Test worker] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+14:17:52.419 [Test worker] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1630 ms
+14:17:53.544 [Test worker] INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 1 endpoint(s) beneath base path '/actuator'
+14:17:53.637 [Test worker] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 53301 (http) with context path ''
+14:17:53.654 [Test worker] INFO  r.n.m.MoneyTransferApplicationTests - Started MoneyTransferApplicationTests in 3.268 seconds (JVM running for 4.736)
+14:24:28.573 [Test worker] INFO  r.n.m.MoneyTransferApplicationTests - Starting MoneyTransferApplicationTests using Java 11.0.17 on HOME-PC with PID 21556 (started by vladimir in C:\Users\vladimir\IdeaProjects\mockito\dockerFile\moneyTransfer)
+14:24:28.573 [Test worker] INFO  r.n.m.MoneyTransferApplicationTests - No active profile set, falling back to default profiles: default
+14:24:30.157 [Test worker] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 0 (http)
+14:24:30.167 [Test worker] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+14:24:30.167 [Test worker] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.55]
+14:24:30.277 [Test worker] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+14:24:30.277 [Test worker] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1673 ms
+14:24:31.378 [Test worker] INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 1 endpoint(s) beneath base path '/actuator'
+14:24:31.460 [Test worker] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 53470 (http) with context path ''
+14:24:31.472 [Test worker] INFO  r.n.m.MoneyTransferApplicationTests - Started MoneyTransferApplicationTests in 3.273 seconds (JVM running for 4.708)
+14:30:57.907 [main] INFO  r.n.m.MoneyTransferApplication - Starting MoneyTransferApplication using Java 11.0.17 on HOME-PC with PID 27596 (C:\Users\vladimir\IdeaProjects\mockito\dockerFile\moneyTransfer\build\classes\java\main started by vladimir in C:\Users\vladimir\IdeaProjects\mockito\dockerFile\moneyTransfer)
+14:30:57.910 [main] INFO  r.n.m.MoneyTransferApplication - No active profile set, falling back to default profiles: default
+14:30:58.944 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 5500 (http)
+14:30:58.957 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+14:30:58.957 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.55]
+14:30:59.034 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+14:30:59.034 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1080 ms
+14:30:59.539 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 1 endpoint(s) beneath base path '/actuator'
+14:30:59.573 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 5500 (http) with context path ''
+14:30:59.587 [main] INFO  r.n.m.MoneyTransferApplication - Started MoneyTransferApplication in 2.032 seconds (JVM running for 2.777)
+14:31:00.311 [RMI TCP Connection(2)-192.168.0.2] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+14:31:00.312 [RMI TCP Connection(2)-192.168.0.2] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+14:31:00.313 [RMI TCP Connection(2)-192.168.0.2] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+14:31:07.407 [http-nio-5500-exec-2] INFO  r.n.m.controller.TransferController - Transfer is started...
+14:31:07.419 [http-nio-5500-exec-2] INFO  r.n.m.service.TransferServiceImpl - Transfer{cardFromNumber='1111111111111111', cardFromCVV='111', cardFromValidTill='01/24', amount=Amount{currency='RUR', value=1200, commission=0}, cardToNumber='2222222222222222'}
+14:31:07.421 [http-nio-5500-exec-2] INFO  r.n.m.r.TransferRepositoryImpl - Operation id: a9c6333a-1b21-423b-b032-c2c94fb9563e
+14:31:07.421 [http-nio-5500-exec-2] INFO  r.n.m.r.TransferRepositoryImpl - Waiting for confirmation!
+14:31:07.449 [http-nio-5500-exec-4] INFO  r.n.m.controller.TransferController - Confirmation is started...
+14:31:07.452 [http-nio-5500-exec-4] INFO  r.n.m.service.TransferServiceImpl - ConfirmOperation{operationId=a9c6333a-1b21-423b-b032-c2c94fb9563e, code=0000}
+14:31:07.453 [http-nio-5500-exec-4] INFO  r.n.m.service.TransferServiceImpl - Transaction from: Card{cardNumber='1111111111111111', balance=8800} to Card{cardNumber='2222222222222222', balance=21200} was successful!
+14:55:34.762 [Test worker] INFO  r.n.m.MoneyTransferApplicationTests - Starting MoneyTransferApplicationTests using Java 11.0.17 on HOME-PC with PID 26968 (started by vladimir in C:\Users\vladimir\IdeaProjects\mockito\dockerFile\moneyTransfer)
+14:55:34.765 [Test worker] INFO  r.n.m.MoneyTransferApplicationTests - No active profile set, falling back to default profiles: default
+14:55:37.704 [Test worker] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 0 (http)
+14:55:37.723 [Test worker] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+14:55:37.724 [Test worker] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.55]
+14:55:37.873 [Test worker] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+14:55:37.874 [Test worker] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 3059 ms
+14:55:39.400 [Test worker] INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 1 endpoint(s) beneath base path '/actuator'
+14:55:39.547 [Test worker] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 54593 (http) with context path ''
+14:55:39.565 [Test worker] INFO  r.n.m.MoneyTransferApplicationTests - Started MoneyTransferApplicationTests in 5.577 seconds (JVM running for 7.949)

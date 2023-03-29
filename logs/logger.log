@@ -1,0 +1,20 @@
+08:45:09.339 [main] INFO  r.n.m.MoneyTransferApplication - Starting MoneyTransferApplication using Java 11.0.17 on HOME-PC with PID 21736 (C:\Users\vladimir\IdeaProjects\mockito\dockerFile\moneyTransfer\build\classes\java\main started by vladimir in C:\Users\vladimir\IdeaProjects\mockito\dockerFile\moneyTransfer)
+08:45:09.343 [main] INFO  r.n.m.MoneyTransferApplication - No active profile set, falling back to default profiles: default
+08:45:10.324 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 5500 (http)
+08:45:10.336 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+08:45:10.336 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.55]
+08:45:10.422 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+08:45:10.422 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1033 ms
+08:45:10.981 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 1 endpoint(s) beneath base path '/actuator'
+08:45:11.026 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 5500 (http) with context path ''
+08:45:11.040 [main] INFO  r.n.m.MoneyTransferApplication - Started MoneyTransferApplication in 2.07 seconds (JVM running for 2.862)
+08:45:11.110 [RMI TCP Connection(1)-192.168.0.2] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+08:45:11.111 [RMI TCP Connection(1)-192.168.0.2] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+08:45:11.112 [RMI TCP Connection(1)-192.168.0.2] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+08:45:29.414 [http-nio-5500-exec-1] INFO  r.n.m.service.TransferServiceImpl - Transfer is started...
+08:45:29.426 [http-nio-5500-exec-1] INFO  r.n.m.service.TransferServiceImpl - Transfer{cardFromNumber='1111111111111111', cardFromCVV='111', cardFromValidTill='01/24', amount=Amount{currency='RUR', value=2200, commission=0}, cardToNumber='2222222222222222'}
+08:45:29.428 [http-nio-5500-exec-1] INFO  r.n.m.service.TransferServiceImpl - Operation id: 1a124a00-dd0a-4d16-a309-3133b817a246
+08:45:29.429 [http-nio-5500-exec-1] INFO  r.n.m.service.TransferServiceImpl - Waiting for confirmation!
+08:45:29.460 [http-nio-5500-exec-2] INFO  r.n.m.service.TransferServiceImpl - Confirmation is started...
+08:45:29.464 [http-nio-5500-exec-2] INFO  r.n.m.service.TransferServiceImpl - ConfirmOperation{operationId=1a124a00-dd0a-4d16-a309-3133b817a246, code=0000}
+08:45:29.465 [http-nio-5500-exec-2] INFO  r.n.m.service.TransferServiceImpl - Transaction from: Card{cardNumber='1111111111111111', balance=7800} to Card{cardNumber='2222222222222222', balance=22200} was successful!
