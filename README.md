@@ -1,35 +1,35 @@
-# Приложение «Сервис перевода денег»
+# Money transfer service application
 
-## Описание
-Проект предоставляет сервис для перевода денег с одной карты на другую. Веб приложение (FRONT) подключается к сервису и использует его функционал для перевода денег. Описание веб приложения (FRONT) доступно по адресу https://github.com/serp-ya/card-transfer. Запуск веб приложения осуществляется по ссылке https://serp-ya.github.io/card-transfer/
+## Description
+The project provides a service for transferring money from one card to another. A web application (FRONT) connects to the service and uses its functionality to transfer money. A description of the web application (FRONT) is available at https://github.com/serp-ya/card-transfer. You can launch the web application by going to https://serp-ya.github.io/card-transfer/.
 
-## Пример использования
-В базе данных приложения создаются две банковские карты
-| Номер карты | Дата действия | Код CVV | Баланс карты |Валюта |
-|---------------------|-------|-----|-------|-----|
-| 1111 1111 1111 1111 | 11/24 | 111 | 10000 | RUB |
-| 2222 2222 2222 2222 |	12/24 |	222 | 20000 | RUB |
+## Example of use
+Two bank cards are created in the application database
+| Card number         | Expiration date | CVV code | Card balance | Currency |
+|---------------------|-----------------|----------|--------------|----------|
+| 1111 1111 1111 1111 | 11/24           | 111      | 10000        | RUB      |
+| 2222 2222 2222 2222 |	12/24           |	222      | 20000        | RUB      |
 
-В веб приложении, запускаемом по ссылке выше, на полях заполнить соответствующие данные карт и сумму перевода.
+In the web application launched via the link above, fill in the relevant card details and transfer amount in the fields.
 
-## Описание приложения
-Настройки приложения хранятся в файлах папки resources.
+## Application description
+The application settings are stored in files in the resources fold
 
 ### `CardsRepository`
-- хранит данные карт класса `Card`
-- возвращает карты по номеру или по всем данным карты
+- stores card data of the `Card` class
+- returns cards by card number or all card data
 
 ### `TransferController.transfer()`
-- oбрабатывает информацию по ветке `/transfer`
-- проверяет данные карт на соответствие в хранилище `CardsRepository`
-- проверяет возможность проведения операции
-- выбрасывает ошибку, если проверки не пройдены
-- возвращает класс `OperationId` в контроллер с номером операции
+- processes information on the `/transfer` branch
+- checks the card data against the `CardsRepository
+- checks if the transaction can be processed
+- throw an error if the checks fail
+- returns the class `OperationId` to the controller with the transaction number
 
 ### `TransferController.confirmOperation()`
-- oбрабатывает информацию по ветке `/confirmOperation`
-- проверяет соответствие кода операции от клиента с данными из хранилища `TransactionRepository`
-- проверяет код потверждения
-- есди все данные корректны, проводит 
+- processes information on the `/confirmOperation` branch
+- Checks the transaction code from the client against the data in the `TransactionRepository
+- Checks the confirmation code
+- if all data is correct, executes 
 
 
