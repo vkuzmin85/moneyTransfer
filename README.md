@@ -1,4 +1,4 @@
-# Money transfer service application
+# Money transfer service
 
 ## Description
 The project provides a service for transferring money from one card to another. A web application (FRONT) connects to the service and uses its functionality to transfer money. A description of the web application (FRONT) is available at https://github.com/serp-ya/card-transfer. You can launch the web application by going to https://serp-ya.github.io/card-transfer/.
